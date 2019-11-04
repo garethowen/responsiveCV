@@ -1,3 +1,16 @@
+todo:
+	- header
+		- photo shrink
+		- responsive (three media break points?)
+	- three media queries?
+	- translation
+	- main area
+		- summary
+		- skills
+		- work experience
+		- education
+		- interests
+
 source format options:
 
 - json
