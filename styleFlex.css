@@ -12,17 +12,18 @@ a:hover {
 }
 
 #headerContainer {
-	display: flex;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
 	padding: 15px 35px;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
 }
 
 #photo {
+	grid-column-start: 1;
 	width: 125px;
 	margin-right: 40px;
-	align-self:center;
-	flex-shrink:0;
 }
 
 #photo img {
@@ -33,7 +34,7 @@ a:hover {
 }
 
 #name {
-	flex-grow: 1;
+	grid-column-start: 2;
 	align-self:center;
 	margin-right: 40px;
 }
@@ -56,8 +57,10 @@ a:hover {
 }
 
 #contactDetails {
+	grid-column-start: 3;
+	align-self:center;
+	margin-top: 30px;
 	font-size: 0.9em;
-	align-self: center;
 	display:grid;
 	grid-gap: 7px;
 	grid-template-columns: auto;
@@ -76,17 +79,38 @@ a:hover {
 	white-space: nowrap;
 }
 
-// Narrow devices
-@media (max-width: 576px) {
-	
+@media (max-width: 992px) {
+	#photo {
+		grid-row-start:1;
+		grid-row-end:3;
+		align-self:center;
+	}
 	#contactDetails {
-		
+		grid-column-start:2;	
+		margin-top:10px;		
 	}
 }
 
-// Medium devices
-@media (max-width: 992px) {
-	
+@media (max-width: 768px) {
+	#headerContainer {
+			padding:10px 10px;
+	}
+	#photo {
+		display:none;
+	}
+	#name {
+		grid-column-start:1;
+		text-align: center;
+		margin-right:0px;
+	}
+	#contactDetails {
+		grid-column-start:1;	
+		margin-top:20px;		
+	}
+}
+
+@media (max-width: 320px) {
+
 }
 
 // Anything else has the default wide display
