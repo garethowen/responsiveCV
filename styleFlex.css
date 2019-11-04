@@ -14,13 +14,13 @@ html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-ser
 	background: #ededed;
 }
 
-#headshot {
+#photo {
 	width: 150px;
 	margin-right: 40px;
 	align-self:center;
 }
 
-#headshot img {
+#photo img {
 	width: 100%;
 	height: auto;
 	-webkit-border-radius: 50px;
@@ -42,28 +42,30 @@ html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-ser
 #name h2 {
 	font-size: 1.5em;
 	font-weight: 500;
-	margin-left: 10px;
 	margin-bottom: -10px;
 }
 
 #contactDetails {
 	font-size: 0.9em;
-	align-self: flex-end;
+	align-self: center;
+	display:grid;
+	grid-gap: 7px;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
 }
 
-#contactDetails ul {
-	list-style-type: none;
+#contactDetails .title {
+	grid-column-start: 1;
 }
 
-#contactDetails ul li {
-	margin-bottom: 10px;
+#contactDetails .content {
+	grid-column-start: 2;
 }
 
-#contactDetails ul li a {
-	color: #444; 
-	text-decoration: none;
+#contactDetails a, span { 
+	white-space: nowrap;
 }
 
-#contactDetails ul li a:hover { 
+#contactDetails a:hover { 
 	color: #cf8a05;
 }
