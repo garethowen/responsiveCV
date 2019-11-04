@@ -1,0 +1,26 @@
+source format options:
+
+- json
+- markdown
+- xml
+- custom
+
+destimation formats:
+
+- html + css
+- pdf
+
+tools:
+- wkhtmltopdf https://wkhtmltopdf.org/	
+
+
+difficulties:
+- getting PDF page layout/breaks correct
+- some formatting may not work
+
+so...separate documents...
+
+decision:
+	- responsive cv in html+css
+	- online sites just point to this, for latest info
+	- do a pdf separately

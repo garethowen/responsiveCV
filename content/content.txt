@@ -1,0 +1,37 @@
+about me / summary
+work experience
+education
+contact
+interests
+skills? yes, important. list languages, frameworks, tools etc
+skills highlights
+
+
+
+---
+
+
+I've been working professionally in the software industry since graduating in 1998, filling roles as technical lead, architect, developer, agile leader and scrum master.
+
+Starting in December 2016 I am currently working at QIAGEN GmbH. 
+
+On a project level, I helped grow a new team to approximately 20 staff to take over development of a project
+initially developed by a third party software house. As senior developer, technical lead 
+
+As agile lead on the project I have overseen ongoing changes
+to the structure of the teams
+---
+
+As a certified scrum master I am helping our team to work out how to become more agile - I was employed as scrum master but found that the process actually being used is a long way from scrum. Additionally to the project work I lead the agile community of practice in the software department, which consists of between 50 and 100 employees working in various teams and projects.
+
+Previously I was employed for many years as senior software architect by Longview Europe GmbH, working in a team developing an HTML5 client to replace a complex legacy Java client. I was responsible for - and proud of - the majority of design decisions we made in our JavaScript code base, which grew to over 100,000 lines of code in a couple of years. But in previous years the focus was elsewhere and we used technologies such as ASP.NET, EntityFramework, WinForms, Win32, Java Applet, WPF and others.
+
+As architect I took overall responsibility for the design and quality of large parts of the code base, coordinating important developments with our other two scrum teams. I wrote a good amount of code personally as well as reviewing much of the code written by the other developers. I reviewed all requirement documents and implementation concepts in our team. I am a very visual person and love working out designs with other team members on a whiteboard before anyone takes to the keyboard.
+
+At Longview I was regarded as the expert in automated testing. I have seen enough examples of bad unit tests to appreciate the power of TDD, and made a number of presentations to the developers over the years to help them develop their testing skills.
+
+I was instrumental in developing the Continuous Integration processes, consisting of pre-commit stages using TFS Gated Checkin Builds, and post-checkin stages using Jenkins to automate unit tests (JavaScript/Jasmine, c#), Functional tests (with FitNesse), front-end tests (using casper, phantomJS, phantomCSS), code metrics (with powershell and c#) and performance tests (using powershell and javascript/phantomJS). It was hard work and we learnt a great deal. It gave me the experience to recognize where to best invest time and effort. I was awarded the 'Most Valuable Player' award at Longview in 2014 for my work in this area.
+
+I have worked continuously in professional software development since graduating from Loughborough University with a first class degree in Mathematics with computation in 1998. Technologies and languages come and go, but I have always maintained a passion to learn the latest. Books like "Clean Code" and "Continuous Delivery" - which lie next to my bed - have inspired me to change the way I work in recent years. I like to see projects through to their completion, but am always ready for a new challenge.
+
+Outside of my professional career, I have been coaching rugby teams of various ages and abilities for over 10 years, and I believe the group management and communication skills learned through sport help me greatly when working in software development teams. On a selfish note, last year I achieved a personal goal of running a marathon in under 3 hours.

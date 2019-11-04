@@ -1,0 +1,69 @@
+html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+
+#cv {
+	width: 90%;
+	max-width: 1200px;
+	background: #f3f3f3;
+	margin: 30px auto;
+}
+
+#headerContainer {
+	display: flex;
+	padding: 15px 35px;
+	border-bottom: 2px solid #cf8a05;
+	background: #ededed;
+}
+
+#headshot {
+	width: 150px;
+	margin-right: 40px;
+	align-self:center;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#name {
+	flex-grow: 1;
+	align-self:center;
+}
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 1.5em;
+	font-weight: 500;
+	margin-left: 10px;
+	margin-bottom: -10px;
+}
+
+#contactDetails {
+	font-size: 0.9em;
+	align-self: flex-end;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+}
+
+#contactDetails ul li {
+	margin-bottom: 10px;
+}
+
+#contactDetails ul li a {
+	color: #444; 
+	text-decoration: none;
+}
+
+#contactDetails ul li a:hover { 
+	color: #cf8a05;
+}
