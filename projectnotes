@@ -5,9 +5,9 @@ set up difftool and merge tool...again!!!
 scan and upload certificates/references
 
 
-li:not(:last-child):after {
-    content:' |';
-}
+make links for the QIAGEN, Longview, Loughborough titles.
+
+make sections clappable
 
 	- header
 		- done?

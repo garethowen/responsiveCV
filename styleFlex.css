@@ -123,11 +123,11 @@ span {
 	line-height: 2em;
 }
 
-.jobArticle:not(:last-child) {
+article:not(:last-child) {
 	border-bottom: 1px solid black;
 }
 
-.jobDetailList li {
+article li {
 	margin-bottom: 5px;
 }
 
