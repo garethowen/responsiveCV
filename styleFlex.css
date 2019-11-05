@@ -118,6 +118,10 @@ span {
 	border-bottom: 1px solid black;
 }
 
+.jobDetailList li {
+	margin-bottom: 5px;
+}
+
 @media (max-width: 992px) {
 	#photo {
 		grid-row-start:1;
