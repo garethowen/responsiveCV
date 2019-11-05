@@ -79,6 +79,39 @@ a:hover {
 	white-space: nowrap;
 }
 
+.sectionContainer {
+	display:grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: auto;
+	padding: 5px 35px;
+}
+
+.sectionTitle {
+	grid-column-start: 1;
+	margin-right: 20px;
+	font-style: italic;
+}
+
+.sectionTitle h2 {	
+	margin-bottom: 0px;
+}
+
+.sectionContent {
+	grid-column-start: 2;
+}
+
+.skillslist ul {
+	padding: 0px;
+}
+
+.skillslist li {
+	display: inline;
+	background-color: #cf8a05;
+	border-radius: 7px;
+	padding: 3px;
+	line-height: 2em;
+}
+
 @media (max-width: 992px) {
 	#photo {
 		grid-row-start:1;
@@ -93,7 +126,7 @@ a:hover {
 
 @media (max-width: 768px) {
 	#headerContainer {
-			padding:10px 10px;
+		padding:10px 10px;
 	}
 	#photo {
 		display:none;
@@ -107,6 +140,20 @@ a:hover {
 		grid-column-start:1;	
 		margin-top:20px;		
 	}
+	
+	.sectionContainer {
+		grid-template-columns: auto;
+		padding:0px 10px;
+	}
+	
+	.sectionTitle h2 {
+		text-align: center;
+	}
+	
+	.sectionContent {
+		grid-column-start:1;	
+	}
+	
 }
 
 @media (max-width: 320px) {

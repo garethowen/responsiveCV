@@ -2,17 +2,16 @@ todo:
 
 
 set up difftool and merge tool...again!!!
+scan and upload certificates/references
 
-move to grid layout/breaks
-because it is easier for the responsible layout/breaks
 
 
 
 	- header
-		- photo shrink
-		- responsive (three media break points?)
+		- done?
 	- three media queries?
 	- translation
+		with data binding?
 	- main area
 		- summary
 		- skills
