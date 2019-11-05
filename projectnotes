@@ -5,7 +5,9 @@ set up difftool and merge tool...again!!!
 scan and upload certificates/references
 
 
-
+li:not(:last-child):after {
+    content:' |';
+}
 
 	- header
 		- done?

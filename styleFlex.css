@@ -75,8 +75,17 @@ span {
 	grid-column-start: 2;
 }
 
+#contactDetails .contactValue a:not(:last-child):after {
+    content:' |';
+}
+
+#contactDetails .contactValue span:not(:last-child):after {
+    content:' |';
+}
+
 #contactDetails a, span { 
 	white-space: nowrap;
+	text-decoration:none;
 }
 
 .sectionContainer {
