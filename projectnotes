@@ -8,7 +8,9 @@ scan and upload certificates/references
 
 make links for the QIAGEN, Longview, Loughborough titles.
 
-make sections clappable
+make sections collapsible
+	- so we have a checkbox
+	- when it is checked, container style is simply changed
 
 
 ---
