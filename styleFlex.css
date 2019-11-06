@@ -95,7 +95,7 @@ span {
     content:' |';
 }
 
-#contactDetails a, span { 
+#contactDetails a { 
 	white-space: nowrap;
 }
 
@@ -141,6 +141,28 @@ article:not(:last-child) {
 
 article li {
 	margin-bottom: 5px;
+}
+
+.referenceContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.reference {
+	text-align: center;
+	width:100px;
+	height:100px;
+	margin:10px;
+	background-image: url("document.png");
+	background-size:100%
+}
+
+.reference a {
+	height:100px;
+	display: table-cell;
+	vertical-align:middle;
+	padding:5px 20px;
+	font-size:12px;
 }
 
 @media (max-width: 992px) {
