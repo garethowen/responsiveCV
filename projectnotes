@@ -6,7 +6,19 @@ set up difftool and merge tool...again!!!
 scan and upload certificates/references
 	add to git too?
 
-make links for the QIAGEN, Longview, Loughborough titles.
+responsiveCV should have section to link to certificates/references
+
+upload my profile to:
+
+	haan-coding-club/responsiveCV
+
+upload project to gitHub
+
+print mediq query:
+	web links replaced with link to responsiveCV / home
+	certificates/reference section removed
+	make sure width is chosen for best print result (with picture)
+
 
 make sections collapsible
 	- so we have a checkbox
@@ -14,6 +26,10 @@ make sections collapsible
 
 
 ---
+
+make links for the QIAGEN, Longview, Loughborough titles.
+
+
 	- header
 		- done?
 	- three media queries?

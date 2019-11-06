@@ -30,7 +30,7 @@ h4 {
 	grid-template-columns: auto;
 	grid-template-rows: auto;
 	padding: 15px 35px;
-	border-top: 2px solid #cf8a05;
+	//border-top: 2px solid #cf8a05;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
 }
