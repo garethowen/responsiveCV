@@ -27,7 +27,7 @@ h4 {
 
 #headerContainer {
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: 200px auto;
 	grid-template-rows: auto;
 	padding: 15px 35px;
 	border-bottom: 2px solid #cf8a05;
@@ -36,18 +36,16 @@ h4 {
 
 #photo {
 	grid-column-start: 1;
-	width: 125px;
-	margin-right: 40px;
 }
 
 #photo img {
-	width: 100%;
+	width: 90%;
 	height: auto;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
 
-#name {
+#nameAndRole {
 	grid-column-start: 2;
 	align-self:center;
 	margin-right: 40px;
@@ -57,14 +55,14 @@ span {
 	white-space:nowrap;
 }
 
-#name h1 {
+#nameAndRole h1 {
 	font-size: 2.5em;
 	font-weight: 700;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
-#name h2 {
+#nameAndRole h2 {
 	font-size: 1.5em;
 	font-weight: 500;
 	margin-bottom: 0px;
@@ -103,7 +101,7 @@ span {
 
 .sectionContainer {
 	display:grid;
-	grid-template-columns: 1fr 3fr;
+	grid-template-columns: 200px auto;
 	grid-template-rows: auto;
 	padding: 5px 35px;
 }
@@ -113,7 +111,6 @@ span {
 }
 .sectionTitle {
 	grid-column-start: 1;
-	//margin-right: 20px;
 	font-style: italic;
 	color: #cf8a05;
 }
@@ -147,25 +144,43 @@ article li {
 }
 
 @media (max-width: 992px) {
+	#headerContainer {
+		grid-template-columns: 125px auto;
+	}
 	#photo {
 		grid-row-start:1;
 		grid-row-end:3;
 		align-self:center;
+		margin-left:-15px
+
 	}
+	#photo img {
+		width: 80%;
+	}
+	#nameAndRole {
+		text-align: center;
+		margin-right:0px;
+	}
+
 	#contactDetails {
-		grid-column-start:2;	
+		grid-column-start:2;
 		margin-top:10px;		
+	}
+	.sectionContainer {
+		grid-template-columns: 125px auto;
+		font-size: 0.8em;
 	}
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	#headerContainer {
+		grid-template-columns: auto;
 		padding:10px 10px;
 	}
 	#photo {
 		display:none;
 	}
-	#name {
+	#nameAndRole {
 		grid-column-start:1;
 		text-align: center;
 		margin-right:0px;
