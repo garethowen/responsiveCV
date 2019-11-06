@@ -14,11 +14,12 @@ upload my profile to:
 
 upload project to gitHub
 
-print mediq query:
-	web links replaced with link to responsiveCV / home
+print media query:
+	skills highlights not styled...? huh?
 	certificates/reference section removed
 	make sure width is chosen for best print result (with picture)
 
+	web links replaced with link to responsiveCV / home
 
 make sections collapsible
 	- so we have a checkbox

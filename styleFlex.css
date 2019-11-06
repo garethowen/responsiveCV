@@ -30,7 +30,6 @@ h4 {
 	grid-template-columns: auto;
 	grid-template-rows: auto;
 	padding: 15px 35px;
-	//border-top: 2px solid #cf8a05;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
 }
@@ -107,7 +106,6 @@ span {
 	grid-template-columns: 1fr 3fr;
 	grid-template-rows: auto;
 	padding: 5px 35px;
-	//border-bottom: 1px solid #cf8a05;
 }
 
 .sectionContainer:not(:last-child) {
@@ -115,7 +113,7 @@ span {
 }
 .sectionTitle {
 	grid-column-start: 1;
-	margin-right: 20px;
+	//margin-right: 20px;
 	font-style: italic;
 	color: #cf8a05;
 }
@@ -134,7 +132,7 @@ span {
 
 .skillslist li {
 	display: inline;
-	background-color: #d5e5f0;
+	box-shadow: inset 0 0 0 1000px #d5e5f0;	// background color that works for print too
 	border-radius: 7px;
 	padding: 3px;
 	line-height: 2em;
@@ -192,8 +190,19 @@ article li {
 	
 }
 
-@media (max-width: 320px) {
-
+@media not print {
+	.contactLinksForScreen {
+		display: inline;
+	}
+	.contactValueForPrint {
+		display: none;
+	}
 }
-
-// Anything else has the default wide display
+@media print {
+	.contactLinksForScreen {
+		display:none;
+	}
+	.contactValueForPrint {
+		display: inline;
+	}
+}
