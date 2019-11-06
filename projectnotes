@@ -1,5 +1,26 @@
 todo:
 
+check all inline profiles link to the responsiveCV
+	- xing
+	- linkedin
+	- gitHub
+	- stack overflow
+
+make sections collapsible
+	- so we have a checkbox
+	- when it is checked, container style is simply changed
+	- can do this with pure css
+	
+new photo
+
+german translation
+
+double check content
+
+check the print really works nicely
+
+---
+
 
 set up difftool and merge tool...again!!!
 
@@ -21,9 +42,7 @@ print media query:
 
 	web links replaced with link to responsiveCV / home
 
-make sections collapsible
-	- so we have a checkbox
-	- when it is checked, container style is simply changed
+
 
 
 ---
