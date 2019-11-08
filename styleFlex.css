@@ -195,6 +195,10 @@ article li {
 }
 
 @media screen and (max-width: 768px) {
+	#cv {
+		width: 100%;
+		margin: auto;
+	}
 	#headerContainer {
 		grid-template-columns: auto;
 		padding:10px 10px;
