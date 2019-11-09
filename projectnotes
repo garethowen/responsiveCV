@@ -1,7 +1,20 @@
 todo:
 
-- no background in small widths!!!
-- no background for print view!!!
+make more visual
+	
+make sections collapsible
+	- so we have a checkbox
+	- when it is checked, container style is simply changed
+	- can do this with pure css
+	
+german translation
+
+double check content
+
+check the print really works nicely
+
+new photo
+---
 
 check all inline profiles link to the responsiveCV
 	- xing
@@ -9,21 +22,8 @@ check all inline profiles link to the responsiveCV
 	- gitHub
 	- stack overflow
 
-make sections collapsible
-	- so we have a checkbox
-	- when it is checked, container style is simply changed
-	- can do this with pure css
-	
-new photo
-
-german translation
-
-double check content
-
-check the print really works nicely
-
----
-
+- no background in small widths!!!
+- no background for print view!!!
 
 set up difftool and merge tool...again!!!
 
