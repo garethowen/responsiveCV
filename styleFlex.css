@@ -87,16 +87,13 @@ span {
 	grid-column-start: 2;
 }
 
-#contactDetails .contactValue a:not(:last-child):after {
-    content:' |';
-}
-
-#contactDetails .contactValue span:not(:last-child):after {
-    content:' |';
+.contactLinksForScreen {
+	line-height: 24px;
 }
 
 #contactDetails a { 
 	white-space: nowrap;
+	//vertical-align: middle;
 }
 
 .sectionContainer {
@@ -121,6 +118,16 @@ span {
 
 .sectionContent {
 	grid-column-start: 2;
+}
+
+.webContactsKey {
+	line-height: 24px;
+}
+
+.externalSiteImage {
+	width:24px;
+	height:24px;
+	vertical-align: middle;
 }
 
 .skillslist ul {
