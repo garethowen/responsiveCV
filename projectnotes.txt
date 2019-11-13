@@ -1,5 +1,10 @@
 todo:
 
+print view
+
+QIAGEN zeugniss...when will it arrive???
+	probably I wait for it. If it is good I want it in there.
+
 make more visual
 	
 make sections collapsible

@@ -87,13 +87,12 @@ span {
 	grid-column-start: 2;
 }
 
-.contactLinksForScreen {
+.contactLinksForScreen, .contactValueForPrint {
 	line-height: 24px;
 }
 
 #contactDetails a { 
 	white-space: nowrap;
-	//vertical-align: middle;
 }
 
 .sectionContainer {
