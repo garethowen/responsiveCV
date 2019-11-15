@@ -1,0 +1,7 @@
+printableCV|Printable CV:|Druckbar:
+mail|Mail:
+web|Web:
+languages|Languages:
+english|English: native
+german|German: fluent
+summary|Summary
